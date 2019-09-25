@@ -1,0 +1,17 @@
+{
+  "name": "Json2Table",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "",
+  "homepage_url": "https://web.hakopako.net/",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*", "file://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    "style.css"
+  ]
+}

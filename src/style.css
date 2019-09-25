@@ -1,0 +1,13 @@
+* {
+  color: #333;
+  font-family: monospace;
+  vertical-align: text-top;
+}
+table {
+  border-collapse: collapse;
+}
+table, tr, td, th {
+  border: 1px solid lightgray;
+  margin: 0px;
+  padding: 3px;
+}
